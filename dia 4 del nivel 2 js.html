@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+/*let puntaje= prompt("ingrese la calificacion del estudiante");
+if (parseInt(puntaje) >= 80 && parseInt(puntaje) <= 100) {
+    alert("categoria A");
+
+}else if ((parseInt(puntaje) >= 70 && parseInt(puntaje) <= 79)){
+    alert("SEGUNDO");
+
+} else if ((parseInt(puntaje) >= 60 && parseInt(puntaje) <= 69)) {
+    alert("categoria c");
+
+} else if ((parseInt(puntaje) >= 50 && parseInt(puntaje) <= 59)) {
+    alert
+}*/
+
+
+
+/*let mes = prompt("ingrese un mes");
+//enero ENERO =>TOLOWERCASE/toupercase
+let mes2 = mes.toLowerCase();
+if(
+    mes2 == "septiembre" ||
+    mes2 == "octubre" ||
+    mes2 == "noviembre"
+)
+{
+    alert("la temporada es otoño");
+
+}
+else if (
+    mes2 == "diciembre" ||
+    mes2 == "enero" ||
+    mes2 == "febrero"
+  )
+{
+    alert("la temporada es invierno");
+} else if(
+    mes2 == "marzo"||
+    mes2 == "abril" ||
+    mes2 == "mayo"
+)
+{
+    alert("la temporada es primavera");
+
+}else if(
+    mes2 == "junio"||
+    mes2 == "julio" ||
+    mes2 == "agosto"
+)
+{
+    alert("la temporada es verano");
+}else{
+    alert("ingresa el nombre de un mes valido");
+} */
+
+/*let dia = prompt("ingrese un dia de la semana:")
+
+dia.toUpperCase() == "SABADO" ||
+dia.toUpperCase() == "DOMINGO"
+?alert(`${dia.toUpperCase()} es fin de semana.`)
+:  alert(`${dia.toUpperCase()} es dia laborable.`)*/
+
+
+function obtenerdiadelmes(year,month) {
+    return new Date (year,month,0).getDate();
+}
+let mes = prompt("introduce un mes");
+switch (mes.toUpperCase()){
+    case "ENERO":
+        console.log(`${mes} tiene ${obtenerdiadelmes(2023,1)} dias`);
+        break;
+        case "FEBRERO":mes
+        console.log(`${mes} tiene ${obtenerdiadelmes(2023,2)} dias`);
+        break;
+        default:
+            break;
+}
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>
